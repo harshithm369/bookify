@@ -95,7 +95,7 @@ li a {
     height: 2rem;
     font-size: 1rem;
    padding: 0.2rem;
-   margin-left: 20vw;
+   margin-left: 15vw;
    min-width: 0;
    max-width:30rem ;
    width: 10vw;
@@ -116,7 +116,6 @@ li a {
     height: 100%;
     float: right;
     background-color: transparent;
-    margin-top: 2vh;
     border-radius: 1rem;
     padding: 1rem;
     align-items: center;
@@ -165,14 +164,39 @@ label{
    
 }
 .leftselection{
+    display: flex;
+    position: absolute;
     background-color: rgb(183, 184, 184);
-    margin: 5rem;
+    margin: 10rem;
     width: 30rem;
     height: 10rem;
     border-radius: 2rem;
     padding: 2rem;
+    margin-left: 42rem;
+    float: right;
 }
 .festtitile{
     font-size: 2rem;
     font-weight: 600;
+}
+.catagory{
+    float: right;
+    width: 15rem;
+    margin-right: 21rem;
+    position: absolute;
+    padding-left: 7rem;
+    
+}
+
+.catagoryitem{
+    padding-top: 4rem;
+    width: 20rem;
+    font-weight: 700;
+    transition: all 0.4s;
+
+}
+.catagoryitem:hover{
+  
+    padding-left: 1.8rem;
+    scale: 1.1;
 }
